@@ -15,7 +15,7 @@ headers = {
 """READING THE EXCEL FILE FOR given_asin"""
 data_frame = pandas.read_excel('prod.xlsx')
 url_list = data_frame["given_asin"]
-print(url_list[5])
+print("Hello: ",url_list[5])
 
 """LOOPING TO ACHIEVE EACH ELEMENT OF given_asin COLUMN TO APPEND WITH THE BASE URL"""
 # for url in url_list:
